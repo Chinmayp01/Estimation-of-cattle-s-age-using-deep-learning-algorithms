@@ -1,5 +1,29 @@
 # 🧠 Project: A database of dentition images of Indian breed cattle and estimation of cattle’s age using deep learning algorithms
+## 📚 Citation
 
+If you use this repository, dataset, or any part of this work in your research, please cite the following paper:
+
+> Chinmay Vijay Patil, Ankit Ashokrao Bhurane, Preeti Ghasad, Vipin Kamble,  
+> Manish Sharma, Anand Singh, Nareshkumar Nandeshwar, Ru-San Tan, Rajendra Acharya,  
+> **A database of dentition images of Indian breed cattle and estimation of cattle’s age using deep learning algorithms**,  
+> *Engineering Applications of Artificial Intelligence*, Volume 162, Part D, 2025, 112172,  
+> ISSN 0952-1976, [https://doi.org/10.1016/j.engappai.2025.112172](https://doi.org/10.1016/j.engappai.2025.112172).
+
+### 🔹 BibTeX
+```bibtex
+@article{PATIL2025112172,
+  title   = {A database of dentition images of Indian breed cattle and estimation of cattle’s age using deep learning algorithms},
+  journal = {Engineering Applications of Artificial Intelligence},
+  volume  = {162},
+  pages   = {112172},
+  year    = {2025},
+  issn    = {0952-1976},
+  doi     = {https://doi.org/10.1016/j.engappai.2025.112172},
+  url     = {https://www.sciencedirect.com/science/article/pii/S0952197625021803},
+  author  = {Chinmay Vijay Patil and Ankit Ashokrao Bhurane and Preeti Ghasad and Vipin Kamble and Manish Sharma and Anand Singh and Nareshkumar Nandeshwar and Ru-San Tan and Rajendra Acharya},
+  keywords = {Livestock management, Deep learning, Instance segmentation, Convolutional neural networks, Vision transformer, Automated age estimation}
+}
+```
 ## 🧩 Environment Setup
 
 This project requires a **Python 3.9 environment** with specific library versions to ensure compatibility with TensorFlow `< 2.11` and other dependencies used during model training and inference.
@@ -223,30 +247,7 @@ The `DATASET_WS_VERIFICATION` folder contains **datasets without segmentation ma
 
 The folder is just for reference to create a GUI interface in hugging face. 
 
-## 📚 Citation
 
-If you use this repository, dataset, or any part of this work in your research, please cite the following paper:
-
-> Chinmay Vijay Patil, Ankit Ashokrao Bhurane, Preeti Ghasad, Vipin Kamble,  
-> Manish Sharma, Anand Singh, Nareshkumar Nandeshwar, Ru-San Tan, Rajendra Acharya,  
-> **A database of dentition images of Indian breed cattle and estimation of cattle’s age using deep learning algorithms**,  
-> *Engineering Applications of Artificial Intelligence*, Volume 162, Part D, 2025, 112172,  
-> ISSN 0952-1976, [https://doi.org/10.1016/j.engappai.2025.112172](https://doi.org/10.1016/j.engappai.2025.112172).
-
-### 🔹 BibTeX
-```bibtex
-@article{PATIL2025112172,
-  title   = {A database of dentition images of Indian breed cattle and estimation of cattle’s age using deep learning algorithms},
-  journal = {Engineering Applications of Artificial Intelligence},
-  volume  = {162},
-  pages   = {112172},
-  year    = {2025},
-  issn    = {0952-1976},
-  doi     = {https://doi.org/10.1016/j.engappai.2025.112172},
-  url     = {https://www.sciencedirect.com/science/article/pii/S0952197625021803},
-  author  = {Chinmay Vijay Patil and Ankit Ashokrao Bhurane and Preeti Ghasad and Vipin Kamble and Manish Sharma and Anand Singh and Nareshkumar Nandeshwar and Ru-San Tan and Rajendra Acharya},
-  keywords = {Livestock management, Deep learning, Instance segmentation, Convolutional neural networks, Vision transformer, Automated age estimation}
-}
 
 
 
