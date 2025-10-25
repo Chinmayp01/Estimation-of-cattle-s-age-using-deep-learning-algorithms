@@ -48,11 +48,13 @@ pip install matplotlib seaborn scikit-learn pillow tqdm labelme2coco tensorflow_
 pip install numpy==1.25.2
 # recommended
 pip install opencv-python==4.8.1.78
+```
+
 
 
 COMPLETE FOLDER STRUCTURE OVERVIEW
 ### 📁 Folder Structure Overview
-
+```text
 PROJECT_SUBMISSION_EAAI/
 │
 ├── Dataset
@@ -64,7 +66,7 @@ PROJECT_SUBMISSION_EAAI/
 ├── MODEL_TRAINING
 │
 └── RESULTS
-
+```
 
 
 ## 🧠 MODEL TRAINING
@@ -75,7 +77,7 @@ This folder includes multiple subfolders, each corresponding to specific experim
 ---
 
 ### 📁 Folder Structure Overview
-
+```text
 MODEL TRAINING/
 │
 ├── 1/ # Experiment 1 – Cattle Dataset with 4 Age Groups
@@ -94,7 +96,7 @@ MODEL TRAINING/
 │ ├── (3 code files for YOLO experiments)
 │
 └── VisionTransformTraining.ipynb # Vision Transformer model training script
-
+```
 
 
 ---
@@ -148,7 +150,7 @@ This folder consolidates **trained models, accuracy logs, result images, and sup
 ---
 
 ### 📁 Folder Structure Overview
-
+```text
 RESULTS/
 │
 ├── ACCURACY_CURVES_DATA/ # Contains training and validation logs for plotting learning curves
@@ -165,7 +167,7 @@ RESULTS/
 └── SCRIPTS/ # Python scripts for generating metrics, curves, and other evaluation results
 ├── (each script name indicates its function)
 
-
+```
 ---
 
 ### 🧠 Overview
@@ -177,9 +179,9 @@ RESULTS/
 
 - The **`RESULT_IMAGES`** folder contains **visual outputs** generated during testing and validation, 
   - Classification results  
-  - Comparison matrix visuals for paper verification  
+  - Comparison matrix visuals 
 
-- The **`SCRIPTS`** folder includes **Python and notebook files** that generate figures, metrics, and tables for the research paper.  
+- The **`SCRIPTS`** folder includes **Python and notebook files** that generate figures, metrics, and tables.  
   Each script is **clearly named** to indicate its purpose (e.g., accuracy plotting, confusion matrix generation, etc.).
 
 ---
@@ -200,7 +202,7 @@ RESULTS/
 ---
 
 ✅ **Tip:**  
-For validation or paper verification, load the corresponding model weights from `MODEL_FILES/` and the logs from `ACCURACY_CURVES_DATA/` to reproduce the reported figures and tables exactly.
+For validation, load the corresponding model weights from `MODEL_FILES/` and the logs from `ACCURACY_CURVES_DATA/` to reproduce the reported figures and tables exactly.
 
 
 ## 🧾 DATASET_WS_VERIFICATION
@@ -245,5 +247,6 @@ If you use this repository, dataset, or any part of this work in your research, 
   author  = {Chinmay Vijay Patil and Ankit Ashokrao Bhurane and Preeti Ghasad and Vipin Kamble and Manish Sharma and Anand Singh and Nareshkumar Nandeshwar and Ru-San Tan and Rajendra Acharya},
   keywords = {Livestock management, Deep learning, Instance segmentation, Convolutional neural networks, Vision transformer, Automated age estimation}
 }
+
 
 
