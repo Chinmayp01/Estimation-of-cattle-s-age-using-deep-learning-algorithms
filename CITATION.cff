@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the following paper."
+authors:
+  - family-names: Patil
+    given-names: Chinmay Vijay
+  - family-names: Bhurane
+    given-names: Ankit Ashokrao
+  - family-names: Ghasad
+    given-names: Preeti
+  - family-names: Kamble
+    given-names: Vipin
+  - family-names: Sharma
+    given-names: Manish
+  - family-names: Singh
+    given-names: Anand
+  - family-names: Nandeshwar
+    given-names: Nareshkumar
+  - family-names: Tan
+    given-names: Ru-San
+  - family-names: Acharya
+    given-names: Rajendra
+title: "A database of dentition images of Indian breed cattle and estimation of cattle’s age using deep learning algorithms"
+journal: "Engineering Applications of Artificial Intelligence"
+publisher: "Elsevier"
+volume: "162"
+issue: "Part D"
+pages: "112172"
+year: "2025"
+date-released: "2025-12-24"
+issn: "0952-1976"
+doi: "10.1016/j.engappai.2025.112172"
+url: "https://www.sciencedirect.com/science/article/pii/S0952197625021803"
+keywords:
+  - Livestock management
+  - Deep learning
+  - Instance segmentation
+  - Convolutional neural networks
+  - Vision transformer
+  - Automated age estimation
+
